@@ -1,6 +1,6 @@
 May 2020
 
-# PWM-RC-receiver-to-USB-XBOX-controller-adapter
+# PWM RC receiver adapter for Windows
 
 ## INTRODUCTION
 
