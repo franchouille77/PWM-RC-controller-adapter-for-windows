@@ -112,8 +112,7 @@ To do this be sure you directly connect pin A0 to ground (no need to use a pullu
 When you are into calibration mode you have to move both joysticks (right and left) on your radio emitter in the full range of motion for both axis (X and Y), and be sure you do it many times, as the arduino will record the minimum and maximum values from both axis for both joysticks. When you are done simply disconnect pin A0 from ground, and then 'L' labelled led on the board should turn OFF and 'TX' labelled LED should turn ON.
 From now you should be able to see an XBOX controller into the the devices list from 'start -> settings -> devices -> devices and printers' and if you right click on this device, then 'settings -> properties' and now you should be able to see the point in the square moving when you move the left jotstick, and you should be able to see the values in the cursors moving when you move the right joystick.
 
-### 3) Troubleshooting:
-
+### 3) TROUBLESHOOTING
 If the 'L' labelled led is blinking once a second, whether in calibration mode or in regular mode, that's because the Arduino Leonardo receive a '0' value from at least one of the 4 channels, so double check your wiring and be sure that your radio-emitter is tuned ON (when my turnigy 9x radio-emitter is turned on I can see a red led turned on inside of my radio-receiver).
 
 
