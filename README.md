@@ -40,6 +40,7 @@ We need to install an example skecth to be sure that the board is detect as an X
 In arduino IDE go to 'File -> Prefencences' and turn on 'verbose output' for uploading.
 Then go to 'Tools -> Board' and select the 'Arduino Leonardo w\ XInput'and select the port of your Arduino Leonoardo board.
 Then go to 'File -> Examples -> XInput' and select the 'Blink' example sketch.
+
 Upload the sketch with the following steps:
 * Press the 'Upload' button in the IDE
 * Wait until the status bar says "Uploading…"
@@ -54,6 +55,7 @@ Now that you are sure the arduino Leonardo works as a XBOX controller, it' time 
 
 Close Arduino IDE, then unplug the Arduino Leonardo from computer, then plug it and start Arduino IDE.
 Now download from this repository and load into the Arduino IDE the 'RCreceiverAdapterForWindows.ino' sketch.
+
 Then upload the sketch with the following steps:
 * Press the 'Upload' button in the IDE
 * Wait until the status bar says "Uploading…"
