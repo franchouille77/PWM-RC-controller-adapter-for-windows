@@ -31,7 +31,6 @@ Restart the Arduino IDE. If the XInput AVR core is installed correctly, you shou
 ### 2) INSTALL XINPUT LIBRARY
 
 Download the ArduinoXInput library at this link: https://github.com/dmadison/ArduinoXInput
-
 You can install this like any other Arduino library, download the latest release as a .zip file and use the IDE’s library manager to install it ( Sketch -> Include Library -> Add .ZIP Library ). Or you can also unzip it into 'Documents\Arduino\libraries'.
 
  ### 3) TRY TO UPLOAD AN EXAMPLE XINPUT SKETCH
@@ -44,8 +43,7 @@ Then go to 'File -> Examples -> XInput' and select the 'Blink' example sketch.
 Upload the sketch with the following steps:
 * Press the 'Upload' button in the IDE
 * Wait until the status bar says "Uploading…"
-* Press the reset button of your Arduino Leonoardo board twice, quickly.
-
+* Press the reset button of your Arduino Leonoardo board twice, quickly
 If you did these steps properly, the board should reset to the bootloader and the upload should begin. AVRDUDE will do it's thing and you should see "avrdude done. Thank you." near the bottom of the output window. Note that the IDE may say that it "Couldn’t find a Board on the selected port" even if the upload succeeded. (Does not matter if not working well, now go on next step, but if next step fails, try upload another time).
 
 After that been done, go to 'start -> settings -> devices -> devices and printers', if you did it right you should see here an xbox controller in the list of available devices, then right click on this device, then 'settings -> properties' and now you should be able to see Button 1 blink once a second (if not try rebooting your computer and upload the sketch again).
@@ -59,12 +57,11 @@ Now download from this repository and load into the Arduino IDE the 'RCreceiverA
 Then upload the sketch with the following steps:
 * Press the 'Upload' button in the IDE
 * Wait until the status bar says "Uploading…"
-* Press the reset button of your Arduino Leonoardo board twice, quickly.
+* Press the reset button of your Arduino Leonoardo board twice, quickly
 
 If you did these steps properly, the board should reset to the bootloader and the upload should begin. AVRDUDE will do it's thing and you should see "avrdude done. Thank you." near the bottom of the output window. Note that the IDE may say that it "Couldn’t find a Board on the selected port" even if the upload succeeded.
 
 After that been done, if you did it right, you should be able to see the 'L' labelled led on the boad blink once a second, and if you go to 'start -> settings -> devices -> devices and printers', you should be able to see here an xbox controller in the list of available devices (if not try rebooting your computer and upload the sketch again).
-
 
 ## USER MANUAL
 
