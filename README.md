@@ -1,6 +1,6 @@
 May 2020
 
-# PWM RC receiver adapter for Windows using Arduino Leonardo
+# PWM RC receiver adapter for Windows using Arduino Leonardo (like USB XBOX controller using XINPUTS)
 ## INTRODUCTION
 
 This code allow to use a PWN RC receiver on a computer running on windows 10 (and probably other version of windows) with model simulators (tested with with Flying Model Simulator and with FPV drone simulator), it works with an arduino leonardo and the ArduinoXInputs library of Dave MADISON, that's why windows recognise the arduino (and by consequent the RC receiver) as an XBOX controller which is highely compatible with windows (I can use my turnigy 9X radio controller to navigate directly into the OS).
